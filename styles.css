@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+:root{
+    --Violet: hsl(257, 40%, 49%);
+    --Soft_Magenta: hsl(300, 69%, 71%);
+}
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    background-image: url(images/bg-desktop.svg);
+    background-color: var(--Violet);
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;;
+}
+
+button{
+    
+    padding: 11px 70px 11px 70px;
+    color: var(--Violet);
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 10px 5px 5px rgb(82, 82, 82);
+
+}
+button:hover{
+    background-color: var(--Soft_Magenta);
+    color: white;
+ }
+ button:focus{
+    border: none;
+    outline: 0;
+}
+i{
+   font-size: 30px;
+   color: white;
+}
+
+i:hover{
+    color: var(--Soft_Magenta);
+    border: none;
+}
+
+
+#logo{
+    width : 200px;
+}
+
+#examples{
+    width: 100%
+}
+
+.title{
+    margin-top: 40px;
+    width: auto;
+}
+.info{
+    margin: 30px auto 0;
+}
+.container-logo, .container-info{
+    margin-top: 50px;
+    
+}
+.container-icons{
+    margin: 150px auto 80px 70%;
+}
+
+@media (max-width: 992px){
+	
+    .container-icons{
+        padding-top: 10%;
+        margin: auto;
+    }
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
